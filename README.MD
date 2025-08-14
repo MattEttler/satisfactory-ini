@@ -25,12 +25,13 @@ MaxInternetClientRate=104857600
 
 [/Script/SocketSubsystemEpic.EpicNetDriver]
 MaxClientRate=104857600
-MaxInternetClientRate=104857600 ```
+MaxInternetClientRate=104857600
+```
 
 # Game.ini
 [/Script/Engine.GameNetworkManager]
 TotalNetBandwidth=104857600
 MaxDynamicBandwidth=104857600
-MinDynamicBandwidth=10485760
+MinDynamicBandwidth=104857600
 ```
 
